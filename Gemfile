@@ -30,6 +30,7 @@ gem 'jquery-rails'
 gem 'bootstrap'
 gem 'simple-rss', '~> 1.3', '>= 1.3.1'
 gem 'animate-rails'
+gem 'font-awesome-rails'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
