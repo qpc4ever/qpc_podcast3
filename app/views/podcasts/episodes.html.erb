@@ -2,16 +2,18 @@
 
 <h1 style="text-align:center">Episodes</h1>
 <% @rss.items.each do |item|%>
-    <div class="row" style="margin-left:460px;" >
+<div class="container text-center">
+    <div class="row" style="margin-left:410px;" >
       <div id="article-div" class="col-xs-12">
         <div class= "well well-lg" >
-          <div class= "article-title align-center" >
+          <div class= "article-title text-center" >
             <p ><a  href='<%=item.link %>'><%=item.title %></a></p>
-            <div style="margin-right:400px;">
-            <p ><a  href='<%=item.link %>'><%=item.description %></a></p>
+            <div style="margin-right:px;">
+            
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
    <% end %>

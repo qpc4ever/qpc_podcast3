@@ -1,7 +1,10 @@
-<div style="background-color:black" class="imgbox";>
-<div class="align-center img-responsive animated bounceInRight center-fit" style="padding-bottom:20px; margin-left:240px;">
+<%= favicon_link_tag asset_path('qpcpodcastpng.png'), :rel => 'icon', :type =>  'image/png' %>
+<div style="background-color:black" class="container";>
+<div class="row" style=" margin-left:240px;">
+<div class="col-md-4 col-xs-6 ">
 <%= link_to 'home' do %>
-    <%= image_tag 'qpcpodcastpng.png',  alt: 'a face that is unnervingly happy'%>
+    <%= image_tag 'qpcpodcastpng.png',  alt: 'a face that is unnervingly happy', class:"img-responsive"%>
 <% end %>
+</div>
 </div>
 </div>
